@@ -1,0 +1,271 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+#bodycolor {
+    background-color: aqua;
+}
+
+.overall {
+    display: flex;
+    flex-direction: column;
+}
+
+.topheading {
+    display: flex;
+    align-items: center;
+    width: 1340px;
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.bottomheading {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.leftsection {
+    align-items: center;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.taketodocs {
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    position: static;
+    border-radius: 5px;
+    /* border-right: fixed; */
+}
+
+.leftsub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taketodocs:hover {
+    font-size: 25px;
+    border-width: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.leftsectiontext {
+    opacity: 70%;
+    white-space: nowrap;
+}
+
+.sectionbuttons {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.sectionbuttons:hover {
+    cursor: pointer;
+}
+
+.one {
+    font-size: 35px;
+}
+
+.onetwo {
+    margin-left: 8px;
+}
+
+.textmain {
+    content: 'Original Text';
+    font-size: 70px;
+    animation-name: head;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    0% {
+        font-size: 30px;
+        opacity: 0;
+    }
+    10% {
+        font-size: 50px;
+        opacity: 1;
+    }
+    30% {
+        font-size: 60px;
+        opacity: 1;
+    }
+    50% {
+        font-size: 70px;
+        opacity: 1;
+    }
+    80% {
+        font-size: 60px;
+        opacity: 1;
+        content: "Changed Text"
+    }
+    90% {
+        font-size: 50px;
+        opacity: 1;
+    }
+    100% {
+        font-size: 30px;
+        opacity: 0;
+        content: "Original Text"
+    }
+}
+
+.wholecontent {
+    background-color: white;
+}
+
+.aboutmesection,
+.skillset {
+    display: flex;
+    justify-items: left;
+}
+
+.leftmiddle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: left;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.rightmiddle,
+.rightmiddle2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 18px;
+    /* background-color: co; */
+}
+
+.rightmiddle {
+    margin-left: 200px;
+}
+
+.rightmiddle2 {
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.selecttheme {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightmode {
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.darkmode {
+    border-style: solid;
+    border-width: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.lightmode:hover {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    align-items: center;
+    align-content: center;
+}
+
+.darkmode:hover {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: center;
+}
+
+#linkedin {
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#linkedin:hover {
+    width: 55px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#github {
+    width: 48px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#github:hover {
+    width: 53px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#instagram {
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#instagram:hover {
+    width: 55px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#youtube {
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#youtube:hover {
+    width: 65px;
+    height: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.emailcontact {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-left: 469px;
+    margin-right: 469px;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.emailcontact:hover {
+    border-radius: 10px;
+    font-size: 23px;
+    margin-left: 440px;
+    margin-right: 440px;
+    cursor: pointer;
+}
