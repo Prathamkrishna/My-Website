@@ -8,7 +8,7 @@ function lightmodeconv() {
     document.getElementById("wholebottom").style.cssText = 'background-color:white; color:black';
     document.getElementById("linkcolor").style.cssText = 'color: black; text-decoration: none';
     document.getElementById("rightmiddletext").style.cssText = 'font-weight: 700';
-    document.getElementById("sendemail").style.cssText = 'color:black; border-color:black; border-width: 1px';
+    document.getElementById("sendemail").style.cssText = 'color:black; border-color:black';
 }
 
 function darkmodeconv() {
@@ -17,7 +17,7 @@ function darkmodeconv() {
     document.getElementById("wholebottom").style.cssText = 'background-color: #282828; color:white';
     document.getElementById("linkcolor").style.cssText = 'color:white; text-decoration: none';
     document.getElementById("rightmiddletext").style.cssText = 'font-weight: 300';
-    document.getElementById("sendemail").style.cssText = 'color:white; border-color:white; border-width:1px';
+    document.getElementById("sendemail").style.cssText = 'color:white; border-color:white';
 }
 
 function taketolinkedin() {
